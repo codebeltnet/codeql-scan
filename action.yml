@@ -9,7 +9,7 @@ runs:
   using: composite
   steps:
     - name: Initialize CodeQL
-      uses: github/codeql-action/init@main
+      uses: github/codeql-action/init@v4
       with:
         languages: ${{ inputs.languages }}
         build-mode: manual
